@@ -1,0 +1,43 @@
+button {
+    width: 100px;
+    height: 80px;
+    background-color:rgb(179, 228, 211);
+    font-size: 40pt;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.zero {
+    width: 205px;
+}
+
+.ravno {
+    width: 310px;
+}
+
+input {
+    height: 60px;
+    font-size: 40pt;
+    text-align: right;
+}
+
+button:hover {
+    background-color: rgb(150, 197, 180);
+}
+
+button:active {
+    background-color: rgb(115, 156, 141);
+}
+
+#fir {
+    margin-left: 10px;
+}
+
+#sec {
+    margin-left: 10px;
+}
+
+#oper {
+    margin-left: 10px;
+}

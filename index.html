@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" size="10" value="0" id="result" disabled>
+    <br>
+    <button onclick="addDigit(1)">1</button>
+    <button onclick="addDigit(2)">2</button>
+    <button onclick="addDigit(3)">3</button>
+    <button onclick="operation(0)">/</button>
+
+    <input type="text" size="10" value="" id="fir" disabled>
+
+    <br>
+    <button onclick="addDigit(4)">4</button>
+    <button onclick="addDigit(5)">5</button>
+    <button onclick="addDigit(6)">6</button>
+    <button onclick="operation(1)">*</button>
+
+    <input type="text" size="1" value="" id="oper" disabled>
+
+    <br>
+    <button onclick="addDigit(7)">7</button>
+    <button onclick="addDigit(8)">8</button>
+    <button onclick="addDigit(9)">9</button>
+    <button onclick="operation(3)">-</button>
+
+    <input type="text" size="10" value="" id="sec" disabled>
+
+    <br>
+    <button class="zero" onclick="addDigit(0)">0</button>
+    <button onclick="cle()">C</button>
+    <button onclick="operation(2)">+</button>
+    <br>
+    <button onclick="rsr()">/2</button>
+    <button class="ravno" onclick="calc()">=</button>
+</body>
+</html>
